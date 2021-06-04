@@ -1,5 +1,13 @@
 # IRM_CDM
 
+## Dependencies
+
+You can create a new conda env for the experiment using requirements.txt provided in this repo.
+```
+conda create --name <env> --file requirements.txt
+```
+
+
 ## Reproduce results
 To reproduce results reported in the paper
 
