@@ -14,6 +14,12 @@ do
     python ./punctuated_sst2/main_psst2_plus.py -v --lr 0.001 --l2_regularizer_weight 0.0001 --penalty_weight 0.0 --color_prob $I --method ERM --cdm_penalty_weight 0.0
 done
 
+# Default IRM
+for I in 0.55 0.6 0.65 0.7 0.8 0.85 0.9
+do
+    python ./colored_mnist/main_cmnist_plus.py --method IRM --cdm_penalty_weight 0.0 --color_prob $I --penalty_weight 7500.0
+done
+
 # IRMBAL
 for I in 0.55 0.6 0.65 0.7 0.8 0.85 0.9
 do
