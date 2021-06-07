@@ -1,4 +1,4 @@
-# Code for Closing the Gap between Invariant Risk Minimization and Out-of-distribution Generalization
+# Code for "Closing the Gap between Invariant Risk Minimization and Out-of-distribution Generalization"
 
 ## Dependencies
 
